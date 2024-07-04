@@ -1,0 +1,35 @@
+css styling
+
+specifictity
+
+1.selectors
+.inline(this is more specific)
+.id(this is specific compare to inline )
+.class(this is more specific)
+.type(this is least specific)
+
+example:
+html
+
+<div id="foo">
+hello!
+<div>
+
+css
+
+div{
+color:blue;
+}
+foo{
+color:red;
+}
+
+css selectors
+
+1.a,b=multiple element selector
+2.ab=descendant selector
+3.a>b=child selector
+4.a+b=adjacent sibling selector
+5.[a=b]=attribute selector
+6.a:b=pseudoclass selector
+7.a::b=pseudoelement selector
